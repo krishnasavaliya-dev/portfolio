@@ -1,0 +1,104 @@
+Goal
+Create a production-ready, responsive portfolio website for "Krishna Savaliya" (Software Engineer). Build it with React (Vite or Create React App) + Tailwind CSS. The site must be clean, modern, accessible (WCAG basics), mobile-first, and ready to deploy on Replit. Provide all source files, a README with deployment steps for Replit, and a downloadable resume (PDF link).
+
+Pages / Sections (single-page with nav + separate route pages allowed)
+1. Home (hero)
+  - Big headline: "Krishna Savaliya — Open edX / Django Developer"
+  - Short tagline: "Open edX specialist with 4 years experience — themes, custom reports, ecommerce & integrations"
+  - CTA buttons: "View Work" and "Download Resume"
+  - Small summary + headshot placeholder (circle avatar)
+
+2. About
+  - Short personal summary (use & edit text below)
+  - Languages: English, Hindi, Gujarati
+  - Key statistics / badges: "4 years experience", "Open edX (Koa→Sumac)", "Django"
+  - Skills list & icons: Django, Open edX, Python, HTML/CSS, JavaScript, Bootstrap, jQuery, MySQL, Docker (basic), Git/GitLab/GitHub, Postman
+  - Soft skills & interests section
+
+3. Work / Projects (grid of project cards)
+  - Each project card must show: title, short description (1–2 lines), tech stack bullets, timeframe (month/year), role (backend/frontend/fullstack), link or placeholder, and a screenshot placeholder. Add a "View details" that opens a detailed project page/modal with:
+      - Problem statement
+      - My contributions (bullet points)
+      - Tech used
+      - Screenshots or placeholders
+      - Key outcomes / metrics (if none, include qualitative results)
+  - Prefill with these example projects derived from resume (user can edit after):
+    A. "Open edX Theme & Dashboard Customization" — Customized dashboards, added pages to theme, implemented new UI, timeframe: Oct 2022 - Present. Tech: Open edX (LMS/Studio), Django, Mako/Jinja, Tailwind/Bootstrap, JS.
+    B. "Ecommerce & Payment Integration (Cashfree)" — Enabled ecommerce service, integrated Cashfree, implemented coupons & order flow, course restrictions on payment. Tech: Django, REST, Cashfree APIs, MySQL, Open edX.
+    C. "Custom Reports & Certificates" — Excel reports generation for student data, custom certificate enabling. Tech: Python, Django, pandas/xlwt (or appropriate library).
+    D. "Authn & MFE Backend Work" — Back-end for Authn, Account, Learning microfrontends (customized fields). Tech: Django, REST, microservices patterns.
+    E. "Platform Integration: Open edX ↔ Odoo" — Built APIs and sync flows between edx and Odoo. Tech: Django REST Framework, API integration.
+    F. "Mobile Plugin Exploration" — Explored & integrated custom Android plugin for native mobile experience.
+
+4. Project Timeline
+  - A vertical timeline with project milestones and date labels (month/year). Include internships and employment:
+    - Jan 2022 — Oct 2022: Software Engineer - Trainee, Codetrade India Pvt Ltd (internship)
+    - Oct 2022 — Present: Software Engineer, Codetrade India Pvt Ltd
+  - Each timeline entry links to the corresponding project card/detail.
+
+5. Contact
+  - Contact form (name, email, subject, message) wired to a simple free endpoint (suggest formsubmit.co) and also fallback contact via mailto:krishna@example.com (user editable).
+  - Social links: GitHub, GitLab, LinkedIn, email.
+  - Small map or location text (Ahmedabad, India).
+
+UI / UX Requirements
+- Use Tailwind CSS for styling. Provide a polished design with consistent spacing, typography, and subtle animations (e.g., fade-in on scroll, hover states). Include a dark-mode toggle.
+- Responsive layout that looks great on mobile and desktop.
+- Use a modern font (Google Fonts) and include accessible color contrast.
+- Include SEO meta tags (title, description) + Open Graph tags and a placeholder OG image.
+- Provide favicon and default profile image placeholder.
+
+Functionality / Code Quality
+- Clean component structure (Header, Footer, Hero, About, Projects, Timeline, ContactForm, ProjectModal).
+- Use React Router (optional) for separate pages or smooth scroll anchors.
+- Form validation (basic) and success/failure UI for contact form.
+- Provide sample JSON data file for projects (so user can edit projects without touching components).
+- Include unit test examples for one small component (Jest + React Testing Library) — optional but preferred.
+- Accessibility: semantic HTML, alt attributes, keyboard navigation for modals.
+
+Content (prefill - copy and use these sections)
+- Name: Krishna Savaliya
+- Title: Software Engineer
+- Location: Ahmedabad, India
+- Short about: "Open edX/Django developer with 4 years of experience (including a 10-month training period). I have hands-on experience across Open edX releases from Koa to Sumac, theme customization, payment gateway integrations, custom reporting, Studio/LMS customization, and backend work for microfrontends. I enjoy solving tricky integration problems and building clean, maintainable backend systems."
+- Skills (list): Django, Open edX (Koa, Lilac, Palm, Quince, Redwood, Sumac), Python, HTML/CSS, JS, Bootstrap, jQuery, MySQL, Docker (basic), Git, Postman, Mako/Jinja templates.
+- Tools & IDEs: VS Code, Ubuntu/Linux, Gitlab/GitHub, Docker (basic), Postman
+- Languages: English, Hindi, Gujarati
+
+Deliverables
+- Full source code (React + Tailwind) ready to run.
+- `README.md` with:
+  - Local setup instructions (`npm install`, `npm run dev`)
+  - How to build (`npm run build`)
+  - How to deploy to Replit (exact steps)
+  - How to replace sample content (projects.json)
+  - How to replace resume PDF and contact email
+- A production `index.html`, favicon, OG image placeholder
+- A small `assets/` folder with placeholder screenshots and profile image
+- Downloadable `resume.pdf` included in repo (can be a placeholder named resume.pdf)
+- Optional: simple backendless contact handling via formsubmit.co and instructions for switching to a real backend (e.g., Netlify functions or Replit backend)
+
+Styling + Interaction preferences
+- Clean card UI for projects with subtle shadow and rounded corners
+- Timeline vertical with alternating sides on desktop, stacked on mobile
+- Modal project details with keyboard close (Esc)
+- "Copy email" button on contact section
+- Print-friendly resume link/button
+
+Extra (nice-to-have)
+- Light animation for hero text (typewriter or fade)
+- Filter by release/tech tags on Projects page (e.g., "Open edX", "Payments", "Integrations")
+- Small dashboard-like section showing counts (projects completed, years experience, languages)
+
+Files & structure
+- `src/components/*` (Header, Footer, Hero, About, Projects, ProjectCard, Timeline, ContactForm, Modal)
+- `src/data/projects.json` (prefilled)
+- `public/resume.pdf`
+- `README.md`
+
+Generate
+- Full working code with realistic sample content taken from the resume above
+- A short `CHANGE_ME.md` section listing all placeholders (email, resume link, social links) the user must update
+- Instructions to test contact form locally (use formsubmit or provide mock)
+
+Use the above resume details (4 years, Open edX versions, Cashfree, Jazmin admin theme, MFE backend work, Odoo integration, Excel reports, theme customizations, email/video library, certificates) to prefill project descriptions and the About section. Keep text concise and professional.
