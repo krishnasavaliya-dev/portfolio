@@ -1,0 +1,24 @@
+1) Medline - Bharti, Diya, Parchi, Tirth Sir, Afnan Sir
+2) Open edX by CodeTrade.io [Mobile App] - Rutvik Sir, Nishchal Sir, Saurabh Sir
+3) GSP - Vivek, Vijay, Janvi, Shahbaaz Sir, Tirth Sir, Prachi, Aakashdeep Sir
+4) NADT - Akola Sir, Riddhi Ma'am
+5) Link & learn - Vijay, Vivek, Aadarsh, Vishvas Sir, Akola Sir 
+6) UJ - Riddhi Maam, Akola Sir
+
+Project Duration
+
+1) Medline - January 2025 to Present
+2) Open edX by CodeTrade.io [Mobile App] - December 2023 to April 2024 & December 2024 to January 2025
+3) GSP - September 2024 to January 2025
+4) NADT - February 2023 to May 2023 & February 2024 to July 2024
+5) Link & Learn - August 2023 to December 2023
+6) UJ - April 2022 to February 2023
+
+Project Description
+
+Medline: In this project odoo and edx integration is there. In this project my responsibility is to create apis for sending and fetching data from odoo. When a course is created or updated in edx, odoo can fetch details of course and it will be synced with LMS. Courses will be purchased from odoo and based on payment edx side course content will be unlocked. Student progress and result data is sent to the odoo side in order to show on the dashboard.
+Open edX by CodeTrade.io [Mobile App]: In this project my responsibility was to set up an android plugin in edx. In that mobile app is built for openedx, in that android plugin is used. When the project started, I worked on the palm release and in the 2nd phase, I used an android plugin with the Sumac release.
+GSP - Django: In this project there are 2 portals, one is the transporter portal and other one is employee portal. My responsibility in this project is as follows. In the transporter portal only transporters can be registered with required details and can create pickup and drop offs. They can see their payment and receipt details and their pickup drop offs data. Phone pay payment gateway is used. I have to manage permissions based on roles as yard employee, yard manager and transporter. In employee portal yard employees and yard managers can be created and managed, containers can be also created from employee portal. Only yard managers and yard employees can access the employee portal. Also yard managers and yard employees can only see their yards pickup and dropoff. They are not allowed to see other yard details. They also can make payment on behalf of their respective yard’s transporter.
+NADT: In NADT my responsibility was to customise themes based on requirements. in that built features like suggested courses, created custom video library in studio and displayed it on lms, generated customised user report (including unit wise progress), tracked time spent by user, restricted user login/register (only selected email domain user can register to the site), customised login and register page. added delete course and delete video library functionality.
+Link & Learn: In this project my responsibility was to build edx apis so that it can be used in frontend mfe customisation. We have used open edx’s palm release, in that we have customized lms, account and authn mfes, category wise course filtering, customized report generation and made custom certificate. In courses we have to make assessments, that assessments are like exams in which if we attempt a question then only we can move to the next question. Exams can be attempted more than once based on attempts set by the author. Number of attempts and scores visible on the dashboard.
+UJ/GSL: In this project openedx’s koa version is used, and in that my responsibility was to integrate ecommerce with lms, made packages as a bunch of courses and also added that in ecommerce, also worked with coupons and GST based custom invoice generation, Custom email sending on enrollment. Added course review and rating for each course. Course filtering based on course category, in which can also compare courses based on category.
